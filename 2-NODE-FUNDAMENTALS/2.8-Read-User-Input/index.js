@@ -4,7 +4,7 @@ const readline = require("readline").createInterface({
 });
 
 readline.question("What's your favorite color? ", (color) => {
-
+    
     console.log(`My favorite color is ${color}`)
     readline.close()
 })
